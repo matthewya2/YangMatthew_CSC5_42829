@@ -24,8 +24,6 @@ int main(int argc, char** argv) {
    const float PAYINCP=0.076;// payment increase percent
    float retrosx;            // retroactive increase for 6 months
    float payincr;            //payment increase for a year     
-   short months;             //user input of months
-   float retroPM;            //retroactive payment per month
    
    //get original annual salary
    cout << "What is your original salary?"<<endl;
@@ -43,14 +41,7 @@ int main(int argc, char** argv) {
     cout <<"your retroactive pay for 6 months is $"<< retrosx<< "."<<endl;
     cout <<"your new annual salary is $"<< nannsal<<"."<<endl;
     cout <<"your new monthly salary is $"<< nmonsal<<"."<<endl;
-    cout << "enter a number of months if you would like to find out how \n"
-            "much money you would earn from the point after the payment \n"
-            "increase.\n";
-    cin >> months;
 
-            retroPM = (oannsal * PAYINCP) / 12 * months;
-            
-            cout << retroPM;
 
     return 0;
 }
