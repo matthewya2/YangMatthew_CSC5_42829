@@ -130,5 +130,6 @@ int main(int argc, char** argv) {
     cout << (notxory? 'T':'F');
     cout << (nxandny? 'T':'F')<<endl;
     return 0;
+    
 }
 
