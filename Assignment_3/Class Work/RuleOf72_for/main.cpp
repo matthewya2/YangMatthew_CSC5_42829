@@ -39,6 +39,4 @@ int main(int argc, char** argv) {
     cout << "the future value = $" << fv << endl;
     cout << "the number of years to more than double = " << nYears << endl;
     return 0;
-    
 }
-
