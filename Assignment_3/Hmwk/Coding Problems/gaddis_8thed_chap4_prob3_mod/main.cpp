@@ -13,31 +13,23 @@
 
 #include <cstdlib>
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main(int argc, char** argv) {
-    //declare variables
-    int number;
+    int month, day, year;
+    cout << "Enter a month in numeric form, yall!\n";
+            cin >> month;
+    cout << "Enter a day in numeric form, yall!\n";
+            cin >> day;
+    cout << "Enter a two digit year, yall!\n";
+    cin >> year;
     
-    cout << "Input a number 1-10 and I will give you the Roman numeral "
-            "equivalent.\n";
-    cin >> number;
-    switch (number)
-    {
-        case 1: cout << "I";      break;
-        case 2: cout << "II";     break;
-        case 3: cout << "III";    break;
-        case 4: cout << "IV";     break;
-        case 5: cout << "V";      break;
-        case 6: cout << "VI";     break;
-        case 7: cout << "VII";    break;
-        case 8: cout << "VIII";   break;
-        case 9: cout << "IX";     break;
-        case 10:cout << "X";      break;
+    if (year == day * month) {
+        cout << "That's one magical date you got there lehr!";
+    } 
+    else{
+        cout << "I'm sorry to say, that date is not magical.";
     }
-    
-    
-    return 0;
+            return 0;
 }
 

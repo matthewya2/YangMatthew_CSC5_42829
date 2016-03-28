@@ -36,6 +36,7 @@ int main(int argc, char** argv) {
         case 9: cout << "IX";     break;
         case 10:cout << "X";      break;
     }
+    if (number > 10 || number < 1) {cout << "error, please pick a number 1-10.";}
     
     
     return 0;
