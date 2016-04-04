@@ -12,6 +12,9 @@
 //System Libraries
 #include <iostream>
 #include <cstdlib>
+#include <iomanip>
+#include <cmath>
+#include <ctime>
 using namespace std;
 
 //User Libraries

@@ -10,11 +10,32 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    int max, counter;
+    //declare variables
+    int counter;
     
-    
-    for (max=177, counter = 000; counter<=max; counter++)
-    {cout << char(counter)<<endl;}
+        
+        while (counter <= 15){
+            cout << char(counter++);}
+    cout << endl;    
+    while (counter > 15 && counter <= 31){
+            cout << char(counter++);}
+    cout << endl;    
+    while (counter > 31 && counter <= 47){
+            cout << char(counter++);}
+        cout << endl;    
+    while (counter > 47 && counter <= 63){
+            cout << char(counter++);}
+        cout << endl;    
+    while (counter > 63 && counter <= 79){
+            cout << char(counter++);}
+        cout << endl;    
+    while (counter > 79 && counter <= 95){
+            cout << char(counter++);}
+            cout << endl;    
+    while (counter > 95 && counter <= 111){
+            cout << char(counter++);}
+            cout << endl;    
+    while (counter > 111 && counter <= 127){
+            cout << char(counter++);}
     return 0;
 }
-
