@@ -13,23 +13,26 @@ using namespace std;
 int main(int argc, char** argv) {
     //declare variables
     float mph, dist, countH, hours, countD, countDD;
-    //mph= speed
-    //dist=distance traveled
-    //countH= the counting of the hours
-    
-    
+    /*mph= speed
+    *dist=distance traveled
+    *countH= the counting of the hours
+    *hours= hours traveled
+    *countD= distance traveled in the hours next to it
+    *countDD= tool to find countD
+    */
+      
     cout << "What is the speed of the vehicle in MPH?\n";
-            cin >> mph;
+    cin >> mph;
             if (mph <0) {
                 cout<< "please input a positive number.\n";
-            cin >> mph;  
+                cin >> mph;  
             }
-            cout << "How many hours has it traveled?\n";
-            cin >> hours;
+    cout << "How many hours has it traveled?\n";
+    cin >> hours;
             if (hours < 1){
-                cout << "please input a time greater than 1.\n";
-             cin >> hours;
-            }
+                 cout << "please input a time greater than 1.\n";
+                 cin >> hours;
+                }
     
     dist = mph * hours;
    
