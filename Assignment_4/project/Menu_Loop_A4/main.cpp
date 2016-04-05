@@ -66,7 +66,8 @@ int main(int argc, char** argv) {
     for (number=1, counter = 0; number<=max; number++){
         counter+= number;
     }
-        cout << counter;
+        cout << "the sum of all the numbers leading to your number is " << 
+                counter;
     
     }
                 }break;
