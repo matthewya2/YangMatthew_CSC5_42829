@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=project
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/project
+CND_ARTIFACT_NAME_Debug=throw_dice
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/throw_dice
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=project.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/project.tar
+CND_PACKAGE_NAME_Debug=throwdice.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/throwdice.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=project
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/project
+CND_ARTIFACT_NAME_Release=throw_dice
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/throw_dice
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=project.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/project.tar
+CND_PACKAGE_NAME_Release=throwdice.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/throwdice.tar
 #
 # include compiler specific variables
 #
