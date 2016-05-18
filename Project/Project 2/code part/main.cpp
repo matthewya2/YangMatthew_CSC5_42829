@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     int cards[SIZE] = {0};      //total card's values
     int freqofC[13] = {0};      //frequency of cards
     int cadpik1;                //card picks 1
-    int cadpik2;                //card picks 1
+    int cadpik2;                //card picks 2
     unsigned int turns=0;       //turns used
     //creates randomness
     unsigned seed = time(0);
