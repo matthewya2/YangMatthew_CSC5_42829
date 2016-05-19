@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
         }
     }
     //finds the min value of inputs
+    min = userIn[0];
     for(int j=1;j<SIZE;j++){
         if (userIn[j]<min){
         min = userIn[j];

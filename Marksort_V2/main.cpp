@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
     }
     cout<<endl<<endl;
     
-    //Test the smallest in list
+    
     for(int j=0;j<SIZE-1;j++){
         for(int i=j+1;i<SIZE;i++){
             if(array[j]>array[i]){

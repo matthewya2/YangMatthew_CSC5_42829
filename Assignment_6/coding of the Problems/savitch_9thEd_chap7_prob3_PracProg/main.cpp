@@ -8,30 +8,32 @@
 #include <iostream>
 using namespace std;
 
-void count2s();
+void swapF2B();
 int main(int argc, char** argv) {
     
-    count2s();
+    swapF2B();
     return 0;
 }
-void count2s(){
-    int size, n=0;         //size of array, n is the number of 2's 
-    int array[size];       
+void swapF2B(){
+    int size;         //size of array, n is the number of 2's 
+    int array[size];
+    int medium;
     
     cout <<"what is the size of your array?"<<endl;
     cin >> size;
     cout << "please input the contents of each slot in the "
                 "array."<<endl;
-    for (int i=0;i<size;i++){
-                cout <<"slot "<<i+1<<":"<<endl;
-        cin>>array[i];   
-    }
+        for (int i=0;i<size;i++){
+            cout <<"slot "<<i+1<<":"<<endl;
+            cin>>array[i];   
+        }
+    
+    medium = 0;
+    medium = array[0];
+    array[0] = array[size-1];
+    array[size-1] = medium;
     
     for (int i=0;i<size;i++){
-        if (array[i]==2){
-            n++;
-        }
+    cout << array[i]<< " ";
     }
-    cout << "there were "<<n<<" number 2's";
-
 }
