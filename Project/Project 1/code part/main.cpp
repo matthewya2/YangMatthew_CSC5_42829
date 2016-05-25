@@ -82,7 +82,7 @@ int main(int argc, char** argv) {
     }
     
     
-    int cnt=0;  //counts the number of eliminated cards
+    int cnt=26;  //counts the number of eliminated cards
     for(int i=0; i<26; ++i)
         if( cards[i]==0 ) ++cnt;
     if(cnt==26) isDone = true;
@@ -92,7 +92,7 @@ int main(int argc, char** argv) {
     
     
     }while(!isDone);        //finishes the program
-    cout << "You have Won! you have completed the game in " <<turns<< "turns.";
+    cout << "You have Won! you have completed the game in " <<turns<< " turns.";
 
     switch (turns){
             case 13: cout << "WOW! A perfect game! You're amazing!!";
